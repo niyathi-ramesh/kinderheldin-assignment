@@ -1,0 +1,74 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  font-family: "Inconsolata", monospace;
+}
+
+.example-form {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+#set-value {
+  margin-bottom: 2rem;
+}
+
+/* Custom Select Styles Start */
+.select-wrapper {
+  width: 100%;
+}
+
+.select-title,
+.select-list {
+  cursor: pointer;
+  border: 1px solid grey;
+  border-radius: 0.2rem;
+  background-color: white;
+  position: relative;
+  -webkit-box-shadow: 1px 4px 10px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 4px 10px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 4px 10px -3px rgba(0, 0, 0, 0.75);
+}
+
+.select-title {
+  padding: 1rem;
+}
+
+.select-list {
+  margin: 0.1rem 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.select-list__item {
+  padding: 1rem;
+}
+
+.select-list__item:not(:last-child) {
+  border-bottom: 1px solid grey;
+}
+
+.select-list__item:hover {
+  background-color: #e9e9e9;
+}
+
+.selected-item {
+  background-color: #c4c5c5;
+}
+
+.select-icon {
+  position: absolute;
+  right: 0.7rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.d-none {
+  display: none;
+}
+
+/* Custom Select Styles End */
